@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Tajawal'); 
+
+* { box-sizing: border-box; } 
+
+body { 
+background-color: rgb(232, 168, 49); 
+  text-decoration: none; 
+} 
+
+p 
+{ 
+padding: 10px; 
+font-family: "Exo 2"; 
+} 
+
+header {
+background-color: powderblue;
+width: 100%; 
+border: 2px solid brown; 
+padding: 15px 5px; 
+margin: 10px; 
+} 
+
+.title 
+{ 
+Color: brown;
+font-family: 'Tajawal'; 
+text-align: center; 
+} 
+
+.intro { 
+text-align: center; 
+color: brown; 
+} 
+
+article { 
+  width: 260px; 
+  Height: 320px; 
+  background-color: rgb(223, 255, 119); 
+  border: 2px solid brown; 
+  margin: 10px; 
+} 
+
+.live { text-decoration: none; } 
+.live > .def {
+  display: none;
+  text-decoration: none; 
+} 
+
+.live:hover > .def {
+  display: block; 
+  text-decoration: none; 
+  border: 2px dashed brown; 
+  background-color: rgb(255, 255, 119); 
+  margin: 3px; 
+  border-radius: 6px; 
+  border-top-left-radius: 2px; 
+  padding: 3px; 
+  text-align: center; 
+} 
+
+.live:hover { text-decoration: underline; } 
+
