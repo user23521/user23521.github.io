@@ -4,42 +4,47 @@
 * { box-sizing: border-box; } 
 
 body { 
-background-color: rgb(232, 168, 49); 
+background-color: rgb(232, 203, 49); 
   text-decoration: none; 
 } 
 
-p 
-{ 
+p { 
 padding: 10px; 
 font-family: "Exo 2"; 
 } 
 
 header {
-background-color: powderblue;
+background-image: url(http://www.slate.com/content/dam/slate/blogs/bad_astronomy/2016/04/18/shainblum_valleyofthecosmos.jpg.CROP.original-original.jpg); 
 width: 100%; 
+height: 300px; 
 border: 2px solid brown; 
 padding: 15px 5px; 
 margin: 10px; 
+border-radius: 20px; 
 } 
 
 .title 
 { 
-Color: brown;
+Color: rgb(119, 255, 167);
 font-family: 'Tajawal'; 
 text-align: center; 
+margin-top: 40px; 
 } 
 
 .intro { 
 text-align: center; 
-color: brown; 
+color: rgb(119, 255, 167); 
+margin-top: 60px; 
 } 
 
 article { 
   width: 260px; 
   Height: 320px; 
-  background-color: rgb(223, 255, 119); 
+  background-color: rgb(211, 211, 232); 
   border: 2px solid brown; 
   margin: 10px; 
+  border-radius: 20px; 
+  display: inline-block; 
 } 
 
 .live { text-decoration: none; } 
@@ -51,7 +56,7 @@ article {
 .live:hover > .def {
   display: block; 
   text-decoration: none; 
-  border: 2px dashed brown; 
+  border: 2px dashed brown;
   background-color: rgb(255, 255, 119); 
   margin: 3px; 
   border-radius: 6px; 
@@ -61,4 +66,29 @@ article {
 } 
 
 .live:hover { text-decoration: underline; } 
+
+nav > ul > li { 
+  font-family: "exo 2"; 
+  display: inline-block; 
+} 
+
+nav > ul > li > a { 
+  font-family: "exo 2"; 
+  display: inline-block;
+  margin: 5px; 
+  text-decoration: none; 
+   
+} 
+
+nav > ul { 
+  border: 2px solid brown; 
+  height: 40px; 
+  margin: 10px; 
+  padding: 3px; 
+  text-align: center; 
+  border-radius: 20px; 
+} 
+
+.lead { 
+  font-weight: 700; } 
 
