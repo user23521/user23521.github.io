@@ -4,7 +4,7 @@
 * { box-sizing: border-box; } 
 
 body { 
-background-color: rgb(232, 203, 49); 
+background-color: rgb(234, 234, 245); 
   text-decoration: none; 
 } 
 
@@ -17,34 +17,27 @@ header {
 background-image: url(http://www.slate.com/content/dam/slate/blogs/bad_astronomy/2016/04/18/shainblum_valleyofthecosmos.jpg.CROP.original-original.jpg); 
 width: 100%; 
 height: 300px; 
-border: 2px solid brown; 
+border: 2px solid royalblue; 
 padding: 15px 5px; 
-margin: 10px; 
+margin: 20px; 
 border-radius: 20px; 
 } 
 
 .title 
 { 
-Color: rgb(119, 255, 167);
+Color: rgb(155, 232, 206);
 font-family: 'Tajawal'; 
 text-align: center; 
 margin-top: 40px; 
 } 
 
-.intro { 
-text-align: center; 
-color: rgb(119, 255, 167); 
-margin-top: 60px; 
-} 
-
 article { 
-  width: 260px; 
-  Height: 320px; 
+  Height: 130px; 
   background-color: rgb(211, 211, 232); 
-  border: 2px solid brown; 
+  border: 2px solid royalblue; 
   margin: 10px; 
   border-radius: 20px; 
-  display: inline-block; 
+  
 } 
 
 .live { text-decoration: none; } 
@@ -59,10 +52,16 @@ article {
   border: 2px dashed brown;
   background-color: rgb(255, 255, 119); 
   margin: 3px; 
-  border-radius: 6px; 
+  border-radius: 15px; 
   border-top-left-radius: 2px; 
   padding: 3px; 
   text-align: center; 
+} 
+
+.def { text-decoration: none; } 
+
+article > p > .live:hover { 
+  margin-bottom: 20px; 
 } 
 
 .live:hover { text-decoration: underline; } 
@@ -81,7 +80,7 @@ nav > ul > li > a {
 } 
 
 nav > ul { 
-  border: 2px solid brown; 
+  border: 2px solid royalblue; 
   height: 40px; 
   margin: 10px; 
   padding: 3px; 
@@ -91,4 +90,13 @@ nav > ul {
 
 .lead { 
   font-weight: 700; } 
+
+.overarching { 
+  height: 600px; 
+  margin: 20px; 
+  padding: 15px; 
+  background-image: url(https://i.pinimg.com/originals/b6/6d/68/b66d680ee16fba46879403ebb8ef0017.jpg); 
+  
+} 
+
 
