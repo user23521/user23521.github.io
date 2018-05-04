@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2|Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Tajawal'); 
+@import url('https://fonts.googleapis.com/css?family=Raleway'); 
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro'); 
 
 * { box-sizing: border-box; } 
 
@@ -10,13 +12,13 @@ background-color: rgb(234, 234, 245);
 
 p { 
 padding: 10px; 
-font-family: "Exo 2"; 
+font-family: "Source Sans Pro"; 
 } 
 
 
 header {
 background-image: url(http://www.slate.com/content/dam/slate/blogs/bad_astronomy/2016/04/18/shainblum_valleyofthecosmos.jpg.CROP.original-original.jpg); 
-width: 100%; 
+width: 97%; 
 height: 300px; 
 border: 2px solid royalblue; 
 padding: 15px 5px; 
@@ -28,7 +30,7 @@ text-align: center;
 .title 
 { 
 Color: rgb(155, 232, 206);
-font-family: 'Tajawal'; 
+font-family: 'Raleway'; 
 text-align: center; 
 margin-top: 70px; 
 } 
@@ -82,18 +84,28 @@ footer {
 border-radius: 20px; 
 height: 80px; 
 background-color: rgb(211, 211, 232); 
-margin: 10px;
+margin: 15px;
 padding: 5px; 
 border: 2px solid royalblue;  
 }  
 
+.disclaimer { 
+display: block; 
+margin: 5px; 
+margin-left: 15px; 
+}
+ 
+
 a { 
   text-decoration: none; 
   color: black; } 
+  
 
 nav { 
-  margin: 10px; 
-} 
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 5px; 
+  } 
 
 nav > ul { 
   display: inline-block; 
