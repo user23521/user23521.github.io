@@ -17,7 +17,7 @@ font-family: "Source Sans Pro";
 
 
 header {
-background-image: url(http://www.slate.com/content/dam/slate/blogs/bad_astronomy/2016/04/18/shainblum_valleyofthecosmos.jpg.CROP.original-original.jpg); 
+background-image: url(https://aainter3.files.wordpress.com/2015/10/15465270242_d4d36587f0_b.jpg); 
 width: 97%; 
 height: 300px; 
 border: 2px solid royalblue; 
@@ -29,7 +29,7 @@ text-align: center;
 
 .title 
 { 
-Color: rgb(155, 232, 206);
+Color: white;
 font-family: 'Raleway'; 
 text-align: center; 
 margin-top: 70px; 
@@ -77,12 +77,13 @@ article > p > .live:hover {
   height: 600px; 
   margin: 20px; 
   padding: 15px; 
-  background-image: url(https://cdn.suwalls.com/wallpapers/fantasy/boy-with-his-kite-in-a-blue-night-25631-2560x1440.jpg); 
+  text-align: center; 
+  background-image: url(http://surrealism.website/Artists/Johfra/1957%20Lentemorgen.jpg); 
 } 
 
 footer { 
 border-radius: 20px; 
-height: 80px; 
+height: 120px; 
 background-color: rgb(211, 211, 232); 
 margin: 15px;
 padding: 5px; 
@@ -90,9 +91,9 @@ border: 2px solid royalblue;
 }  
 
 .disclaimer { 
-display: block; 
-margin: 5px; 
-margin-left: 15px; 
+display: block;  
+margin-left: 15px;
+margin-bottom: 10px; 
 }
  
 
@@ -112,7 +113,7 @@ nav > ul {
   text-align: center; 
   margin: 10px; 
   border: 2px solid royalblue;
-  background-color: rgb(155, 232, 206); 
+  background-color: rgb(180, 180, 200); 
   color: black;
   text-align: center; 
   border-radius: 20px;  
@@ -146,5 +147,4 @@ nav > ul > .drop_projects:hover > ul {display: block; }
 nav > ul > li:hover > ul {display: block; } 
 
 nav > ul > li:hover, nav { margin-bottom: 40px; } 
-
 
