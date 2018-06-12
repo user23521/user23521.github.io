@@ -1,5 +1,3 @@
-<link href="main.css"> 
-
 function check(){
 	
 	var born = document.quiz.born.value; 
@@ -47,16 +45,18 @@ var messages = ["Yeet! Not bad.", "Pass", "Yargh, go read some Wikipedia."];
 	range = 2; 
 	} 
 	
-	if correct > 2 && correct < 5) {
+	if (correct > 2 && correct < 5) {
 		score = 1; 
+	} 
  
     if (correct > 6) { 
 	score = 0; 
 	} 
 	
-	document.getElementById("message").innerHTML = messages(range); 
+	document.getElementById("check").innerHTML = messages(range); 
 
-document.getElementById("after_submit").style.visibility = "visible"; 
+//document.getElementById("after_submit").style.visibility = "visible"; 
 document.getElementById("number_correct").innerHTML = "Your score is " + correct + "."; 
 	
+	console.log("Test")
 }

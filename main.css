@@ -148,9 +148,10 @@ nav > ul > li:hover > ul {display: block; }
 
 nav > ul > li:hover, nav { margin-bottom: 40px; }
 
+nav > ul > li > ul > li > a { font: "exo 2"; } 
 
 #after_submit { 
-visibility: hidden; 
+	/*visibility: hidden;*/
 } 
 
 #quiz { 
@@ -163,8 +164,15 @@ gnosisonline.org/wp-content/uploads/
 background-image: http://www.johfraposters.com/wp-content/uploads/2015/01/libra7.png; 
 } 
 
+.wanthover { 
+text-decoration: underline: 
+} 
 
+.drop_projects { font: "exo 2"; } 
 
+.longg { height: 600px; } 
+
+.parentlongg { height: 1300px; } 
 
 
 
