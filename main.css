@@ -128,7 +128,7 @@ nav > ul > li {
  } 
 
 nav > ul > li > a {
-  font-family: "exo 2";
+  font-family: "Raleway";
   text-decoration: none;
   padding: 2px; 
   margin-right: 8px; 
@@ -146,5 +146,26 @@ nav > ul > .drop_projects:hover > ul {display: block; }
 
 nav > ul > li:hover > ul {display: block; } 
 
-nav > ul > li:hover, nav { margin-bottom: 40px; } 
+nav > ul > li:hover, nav { margin-bottom: 40px; }
+
+
+#after_submit { 
+visibility: hidden; 
+} 
+
+#quiz { 
+background-image: url(https://i0.wp.com/www.
+gnosisonline.org/wp-content/uploads/
+2010/03/Signo-Sagit%C3%A1rio.jpg?fit=477%2C720); 
+}  
+
+#Johfra { 
+background-image: http://www.johfraposters.com/wp-content/uploads/2015/01/libra7.png; 
+} 
+
+
+
+
+
+
 

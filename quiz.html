@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Javascript Quiz</title>
+<link href="main.css" rel="stylesheet"> 
+<script src="main.js"></script>
+</head>
+
+
+<body id="Johfra">
+<h1>Quiz with Javascript</h1>
+<h4>(Pardon the stuff-ups)</h4>
+
+<form id="quiz" name="quiz">
+
+<p> Where was Johfra Bosschart born?</p> 
+<input id="textbox" type="text" name="bornwhere"> 
+
+<p > In which year was he born?</P>
+<input type="radio" id="radio" name="born" value="1919"> 1919<br> 
+<input type="radio" id="radio" name="born" value="1910"> 1910<br> 
+
+<p> Where did he go to university?</p> 
+<input id="textbox" type="text" name="uni"> 
+
+<p> Which type of art was he known for?</P>
+<input type="radio" id="radio" name="type" value="Surrealism"> Surrealism<br> 
+<input type="radio" id="radio" name="type" value="Portraiture"> Portraiture<br> 
+<input type="radio" id="radio" name="type" value="War Scenes"> War Scenes<br> 
+
+
+<p> Which of the following is the title of one of his works?</P>
+<input type="radio" id="radio" name="title" value="Goedsul">Goedsul <br> 
+<input type="radio" id="radio" name="title" value="Godawful">Godawful <br> 
+<input type="radio" id="radio" name="title" value="Godwhy">Godwhy<br> 
+
+<p> What was his wife's name?</P>
+<input type="radio" id="radio" name="wife" value="Ellen Lorien"> Ellen Lorien<br> 
+<input type="radio" id="radio" name="wife" value="Jeanette Fleurac">Jeannette Fleurac<br> 
+
+<p> In which year did he die?</P>
+<input type="radio" id="radio" name="die" value="1992"> 1992<br> 
+<input type="radio" id="radio" name="die" value="1998"> 1998<br> 
+
+<input id ="button" type="button" value="Check?" onclick = "Check();">
+</form>
+
+
+<div id = "after_submit"> 
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture"> 
+
+</div>
+
+</body>
+</html> 
+
